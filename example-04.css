@@ -11,22 +11,34 @@
 }
 
 
-.header {}
-/* hint! you have to contain the floated children elements. */
+.header {
+	float: left;
+	width: 100%;
+}
+/* hint! you have to contain the floated children elements. Floated elements will recognize its floated children*/
 
 .logo {
+	float: left;
 	/* hint! */
 }
 
 .navigation {
+	float: right;
 	/* hint! */
 }
 
 .sidebar {
+	float: left;
+	width: 250px;
+	height: 300px;
 }
 
 .main-content {
+	float: left;
+	width: 734px;
+	height: 300px;
 }
 
 .footer {
+	clear: both;
 }
