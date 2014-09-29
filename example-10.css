@@ -5,14 +5,31 @@
 
 /* Example 10 */
 
-.header {}
+.header {
+	width: 100%;
+}
 
-.sidebar {}
+.container {
+	float: left;
+	width: 80%;
+	margin: 0 auto; /*question: why does the margin not align it to center?*/
+}
 
-.main-content {}
+.sidebar {
+	float: left;
+	width: 40%%;
+	height: 250px;
+}
 
-.sub-content {}
+.main-content {
+	float: left;
+	width: 60%;
+	height: 250px;
+}
 
-.footer {}
+.footer {
+	clear: both;
+	width: 100%;
+}
 
 /* what do you have to add to make the sidebar and content and footer not be the full width of the browser? */
