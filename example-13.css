@@ -6,3 +6,44 @@
 /* Example 13 */
 
 /* I'm blank! Write some CSS to style your layout! */
+.container {
+	float: left;
+	width: 100%;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+}
+
+.navigation {
+	float: right;
+	width: 100%;
+	text-align: right;
+}
+
+.blog-posts {
+	float: left;
+	width: 75%;
+}
+
+.sidebar {
+	float: right;
+	width: 20%;
+	height: 100%; /*how do I make it so that my blog sidebar stretches all the way down?*/
+}
+
+.image {
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.bio {
+	text-align: center;
+}
+
+.footer {
+	clear: both;
+}
