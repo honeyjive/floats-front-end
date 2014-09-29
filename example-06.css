@@ -11,24 +11,30 @@
 }
 
 
-.main-content {}
+.main-content {
+	float: left;
+}
 /* hint! what do you need to add here? */
 
 .widget {
+	float: left;
 	/* how do you make the widgets float next to each other? */
 	/* what happens when you change float left to float right? why? */
 }
 
 
 .footer {
+	clear: both;
 	/* hint! */
 }
 
 
 /* Bonus: what happens if you make a couple of the widgets taller than the other? */
-/*.widget.tall {}*/
+/*.widget.tall {
+	height: 400px;
+}*/
 
 /* this CSS class targets widget #5. what can you do to it to make the rows of widgets get back in order? */
 .widget.fix {
-	background: #8F1B65;
+	background: #8F1B65; /*not really sure on what this question is asking*/
 }

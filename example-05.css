@@ -36,7 +36,7 @@
 }
 /* hint! you have to contain the floated children elements. */
 
-/*DOESN'T LOOK LIKE THE EXAMPLE, WHY? FIND OUT*/
+/*DOESN'T LOOK EXACTLY LIKE THE EXAMPLE, WHY? FIND OUT*/
 .sub-content {
 	float: right;
 	width: 60%;
