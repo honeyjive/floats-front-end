@@ -30,7 +30,6 @@
 .sidebar {
 	float: right;
 	width: 20%;
-	height: 100%; /*how do I make it so that my blog sidebar stretches all the way down?*/
 }
 
 .image {
