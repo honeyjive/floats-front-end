@@ -9,8 +9,13 @@
 	width: 100%;
 }
 
+.container:after {
+	display: block;
+	content: " ";
+	clear: both;
+}
+
 .container {
-	float: left;
 	width: 80%;
 	margin: 0 auto; /*question: why does the margin not align it to center?*/
 }
